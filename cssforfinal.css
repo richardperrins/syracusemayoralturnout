@@ -1,0 +1,65 @@
+
+
+.top {
+			max-width: 1000px;
+			margin: 0px auto;
+			position: relative; /*Having this position property here is critical. It's so that the "absolute" positioning for the "headline" div works off of the enclosing parent instead of the body element (for more, see this: https://css-tricks.com/absolute-positioning-inside-relative-positioning/) Why is this necessary? One of the maddening things about CSS, IMHO.*/
+		}
+
+.headline {
+			color: darkblue;
+			position: absolute; /*Instead of stacking above like usual, this "headline" div (and its contents) will go right over the top of the image element.*/
+			width: 100%; /*Make this div 100% of the width of its parent container (which is "top" div).*/
+			text-align: center;
+		}
+
+img {
+width:100%;
+		}
+
+.mac {
+	font-size:80px;
+	font-family: Cambria, Sans Serif;
+	font-weight: bold;
+	color: #1d3557;
+	font-variant: small-caps ;
+}
+
+.dek {
+	font-size: 25px;
+	font-family: Cambria, Sans Serif;
+	font-weight: bold;
+	color: #1d3557;
+	font-variant: small-caps;
+}
+
+.byline {
+	font-size: 20px;
+	font-family: Cambria, Sans Serif;
+	color: #1d3557;
+	font-style: italic;
+}
+
+.cutline{
+	text-align: right;
+}
+
+p {
+	font-size: 20px;
+	font-family: Cambria, Sans Serif;
+	color: #1d3557;
+	text-indent: 10%;
+}
+
+a{
+	color: #001219;
+}
+
+
+}
+
+iframe {
+	align-content: right;
+}
+
+
